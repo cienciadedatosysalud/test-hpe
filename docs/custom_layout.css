@@ -1,0 +1,45 @@
+/* --- Base Styles (Mobile First: applies to screens < 768px) --- */
+.columns {
+  display: flex;
+  flex-direction: column; /* Stacks columns */
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+.scroll-output_no_scroll {
+  height: 35vh !important;
+  padding: 0 5px;  
+  width: 100%!important;
+  margin-bottom:35%;
+}
+
+.scroll-output {
+  padding: 0 10px;   
+  width: 100%!important;
+
+}
+/* ... (specific overflow rules) ... */
+
+
+/* --- Media Query for PC & Tablets (screens >= 768px) --- */
+@media (min-width: 920px) {
+  .columns {
+    flex-direction: row;    /* Lays out columns horizontally */
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: space-between;
+  }
+
+  .scroll-output_no_scroll {
+    overflow-y: hidden !important;
+    padding: 0 10px;
+    width: 60%!important;
+    height: 100vh!important;
+  }
+
+  .scroll-output {
+     padding: 0 10px;   
+     width: 38%!important;
+     height: 100vh!important;
+  }
+}

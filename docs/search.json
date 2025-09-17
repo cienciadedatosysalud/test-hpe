@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "evo_variacion_area.html",
+    "href": "evo_variacion_area.html",
+    "title": "ATLAS Hospitalizaciones Potencialmente Evitables",
+    "section": "",
+    "text": "Evolución variación (Área Sanitaria) 2018-2023\n\n\nviewof indicador = Inputs.select(\n  [ 'total_HPE', 'Dehydration_HPE', 'CHF_HPE','diabetes_HPE', 'Asthma_HPE','EPOC_HPE','Angina_HPE'],\n  { label: 'Indicador',\n  format: x =&gt; {\n      switch (x) {\n        case 'total_HPE':\n          return 'Cualquier causa';\n        case 'Dehydration_HPE':\n          return 'Deshidratación';\n        case 'CHF_HPE':\n          return 'Insuficiencia Cardiaca Congestiva (ICC)';\n        case 'diabetes_HPE':\n          return 'Complicaciones Agudas de la Diabetes';\n        case 'Asthma_HPE':\n          return 'Asma en adulto';\n        case 'EPOC_HPE':\n          return 'Enfermedad Pulmonar Obstructiva Crónica (EPOC)';\n        case 'Angina_HPE':\n          return 'Angina (no primaria) sin procedimiento';\n        default:\n          return x; // Para valores no definidos\n      }\n    }}\n);"
+  },
+  {
+    "objectID": "evo_variacion_zbs.html",
+    "href": "evo_variacion_zbs.html",
+    "title": "ATLAS Hospitalizaciones Potencialmente Evitables",
+    "section": "",
+    "text": "Evolución variación (Zona Básica de Salud) 2018-2023\n\n\nviewof indicador = Inputs.select(\n  [ 'total_HPE', 'Dehydration_HPE', 'CHF_HPE','diabetes_HPE', 'Asthma_HPE','EPOC_HPE','Angina_HPE'],\n  { label: 'Indicador',\n  format: x =&gt; {\n      switch (x) {\n        case 'total_HPE':\n          return 'Cualquier causa';\n        case 'Dehydration_HPE':\n          return 'Deshidratación';\n        case 'CHF_HPE':\n          return 'Insuficiencia Cardiaca Congestiva (ICC)';\n        case 'diabetes_HPE':\n          return 'Complicaciones Agudas de la Diabetes';\n        case 'Asthma_HPE':\n          return 'Asma en adulto';\n        case 'EPOC_HPE':\n          return 'Enfermedad Pulmonar Obstructiva Crónica (EPOC)';\n        case 'Angina_HPE':\n          return 'Angina (no primaria) sin procedimiento';\n        default:\n          return x; // Para valores no definidos\n      }\n    }}\n);"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bienvenido al Atlas de Hospitalizaciones Potencialmente Evitables",
+    "section": "",
+    "text": "Explora la diversidad de hospitalizaciones potencialmente evitables en distintas regiones. Descubre patrones, tendencias y datos relevantes para comprender mejor las variaciones en la atención médica.\n\n\n\n\n\n\n\n\n\n\n\n\nSistema Nacional de Salud: Analiza la evolución de la práctica médica a nivel nacional.\nComunidades Autónomas: Descubre cómo varían las hospitalizaciones potencialmente evitables en las diferentes comunidades autónomas.\nÁrea Sanitaria: Profundiza en los datos de variación a nivel de áreas sanitarias específicas.\nZona Básica de Salud: Explora la variación en zonas básicas de salud para obtener una visión más detallada.\n\n\n\n\n\nVariación Geográfica por Tramos Etarios: Conoce cómo varían las hospitalizaciones potencialmente evitables según los grupos de edad.\nVariación Geográfica por Sexo: Analiza las diferencias en las hospitalizaciones potencialmente evitables según el sexo.\nVariación Geográfica: Examina la variación en general a lo largo de diferentes regiones.\n\n\n\n\nEvalúa el desempeño de las distintas áreas y zonas básicas de salud en hospitalizaciones potencialmente evitables y compara resultados.\n\n\n\n\nPara obtener más información, no te pierdas estos recursos esenciales:\n\nInfografía\nMetodología\nPolicy brief\n\n\n\n\n\nEste atlas es tu guía para entender la variación de práctica médica. Cada sección está diseñada para proporcionarte información clara y útil. ¡Sigue explorando y descubre más!"
+  },
+  {
+    "objectID": "index.html#secciones-del-atlas",
+    "href": "index.html#secciones-del-atlas",
+    "title": "Bienvenido al Atlas de Hospitalizaciones Potencialmente Evitables",
+    "section": "",
+    "text": "Sistema Nacional de Salud: Analiza la evolución de la práctica médica a nivel nacional.\nComunidades Autónomas: Descubre cómo varían las hospitalizaciones potencialmente evitables en las diferentes comunidades autónomas.\nÁrea Sanitaria: Profundiza en los datos de variación a nivel de áreas sanitarias específicas.\nZona Básica de Salud: Explora la variación en zonas básicas de salud para obtener una visión más detallada.\n\n\n\n\n\nVariación Geográfica por Tramos Etarios: Conoce cómo varían las hospitalizaciones potencialmente evitables según los grupos de edad.\nVariación Geográfica por Sexo: Analiza las diferencias en las hospitalizaciones potencialmente evitables según el sexo.\nVariación Geográfica: Examina la variación en general a lo largo de diferentes regiones.\n\n\n\n\nEvalúa el desempeño de las distintas áreas y zonas básicas de salud en hospitalizaciones potencialmente evitables y compara resultados."
+  },
+  {
+    "objectID": "index.html#recursos",
+    "href": "index.html#recursos",
+    "title": "Bienvenido al Atlas de Hospitalizaciones Potencialmente Evitables",
+    "section": "",
+    "text": "Para obtener más información, no te pierdas estos recursos esenciales:\n\nInfografía\nMetodología\nPolicy brief"
+  },
+  {
+    "objectID": "index.html#explora-y-aprende-más",
+    "href": "index.html#explora-y-aprende-más",
+    "title": "Bienvenido al Atlas de Hospitalizaciones Potencialmente Evitables",
+    "section": "",
+    "text": "Este atlas es tu guía para entender la variación de práctica médica. Cada sección está diseñada para proporcionarte información clara y útil. ¡Sigue explorando y descubre más!"
+  },
+  {
+    "objectID": "var_geo_sexo.html",
+    "href": "var_geo_sexo.html",
+    "title": "ATLAS Hospitalizaciones Potencialmente Evitables",
+    "section": "",
+    "text": "viewof indicador = Inputs.select(\n  [ 'total_HPE', 'Dehydration_HPE', 'CHF_HPE','diabetes_HPE', 'Asthma_HPE','EPOC_HPE','Angina_HPE'],\n  { label: 'Indicador',\n  format: x =&gt; {\n      switch (x) {\n        case 'total_HPE':\n          return 'Cualquier causa';\n        case 'Dehydration_HPE':\n          return 'Deshidratación';\n        case 'CHF_HPE':\n          return 'Insuficiencia Cardiaca Congestiva (ICC)';\n        case 'diabetes_HPE':\n          return 'Complicaciones Agudas de la Diabetes';\n        case 'Asthma_HPE':\n          return 'Asma en adulto';\n        case 'EPOC_HPE':\n          return 'Enfermedad Pulmonar Obstructiva Crónica (EPOC)';\n        case 'Angina_HPE':\n          return 'Angina (no primaria) sin procedimiento';\n        default:\n          return x; // Para valores no definidos\n      }\n    }}\n);"
+  },
+  {
+    "objectID": "var_geo.html",
+    "href": "var_geo.html",
+    "title": "ATLAS Hospitalizaciones Potencialmente Evitables",
+    "section": "",
+    "text": "viewof indicador = Inputs.select(\n  [ 'total_HPE', 'Dehydration_HPE', 'CHF_HPE','diabetes_HPE', 'Asthma_HPE','EPOC_HPE','Angina_HPE'],\n  { label: 'Indicador',\n  format: x =&gt; {\n      switch (x) {\n        case 'total_HPE':\n          return 'Cualquier causa';\n        case 'Dehydration_HPE':\n          return 'Deshidratación';\n        case 'CHF_HPE':\n          return 'Insuficiencia Cardiaca Congestiva (ICC)';\n        case 'diabetes_HPE':\n          return 'Complicaciones Agudas de la Diabetes';\n        case 'Asthma_HPE':\n          return 'Asma en adulto';\n        case 'EPOC_HPE':\n          return 'Enfermedad Pulmonar Obstructiva Crónica (EPOC)';\n        case 'Angina_HPE':\n          return 'Angina (no primaria) sin procedimiento';\n        default:\n          return x; // Para valores no definidos\n      }\n    }}\n);"
+  },
+  {
+    "objectID": "perfil_desempeño_area.html",
+    "href": "perfil_desempeño_area.html",
+    "title": "ATLAS Hospitalizaciones Potencialmente Evitables",
+    "section": "",
+    "text": "viewof ccaa_ = Inputs.select(\n  [ '01', '02', '03','04', '05','06','07','08','09','10','11','12','13','14','15','16','17'],\n  { label: 'CCAA',\n  format: x =&gt; {\n      switch (x) {\n        case '01':\n          return 'Andalucía';\n        case '02':\n          return 'Aragón';\n        case '03':\n          return 'Asturias (Principado de)';\n        case '04':\n          return 'Balears (Illes)';\n        case '05':\n          return 'Canarias';\n        case '06':\n          return 'Cantabria';\n        case '07':\n          return 'Castilla y León';\n        case '08':\n          return 'Castilla-La Mancha';\n        case '09':\n          return 'Cataluña';\n        case '10':\n          return 'Comunidad Valenciana';\n        case '11':\n          return 'Extremadura';\n        case '12':\n          return 'Galicia';\n        case '13':\n          return 'Madrid';\n        case '14':\n          return 'Murcia';\n        case '15':\n          return 'Navarra (Comunidad Foral de)';\n        case '16':\n          return 'País Vasco';\n        case '17':\n          return 'La Rioja';\n        default:\n          return x; // Para valores no definidos\n      }\n    }}\n);\n\n\n\n\n\n\n\n\n\n\nLeyenda\n\n\n\n  \n  \n    ×\n    Leyenda\n    \n\n\n\n\n\n\n\nFigura\nDescripción\n\n\n➘\nMejor que el periodo anterior\n\n\n➡\nIgual que el periodo anterior\n\n\n➚\nPeor que el periodo anterior\n\n\n\n\n\nValores por debajo del valor P25\n\n\n\n\n\nValores no significativamente distintos del valor P25\n\n\n\n\n\nValores por encima del valor P25\n\n\n\n\n\nSin casos\n\n\n\n\n\nValor P25\n\n\n\n\n\nQ1\n\n\n\n\n\nQ2\n\n\n\n\n\nQ3\n\n\n\n\n\nQ4\n\n\n\n\n\nQ5"
+  },
+  {
+    "objectID": "evo_variacion_ccaa.html",
+    "href": "evo_variacion_ccaa.html",
+    "title": "ATLAS Hospitalizaciones Potencialmente Evitables",
+    "section": "",
+    "text": "Evolución variación (Comunidad Autónoma) 2018-2023\n\n\nviewof indicador = Inputs.select(\n  [ 'total_HPE', 'Dehydration_HPE', 'CHF_HPE','diabetes_HPE', 'Asthma_HPE','EPOC_HPE','Angina_HPE'],\n  { label: 'Indicador',\n  format: x =&gt; {\n      switch (x) {\n        case 'total_HPE':\n          return 'Cualquier causa';\n        case 'Dehydration_HPE':\n          return 'Deshidratación';\n        case 'CHF_HPE':\n          return 'Insuficiencia Cardiaca Congestiva (ICC)';\n        case 'diabetes_HPE':\n          return 'Complicaciones Agudas de la Diabetes';\n        case 'Asthma_HPE':\n          return 'Asma en adulto';\n        case 'EPOC_HPE':\n          return 'Enfermedad Pulmonar Obstructiva Crónica (EPOC)';\n        case 'Angina_HPE':\n          return 'Angina (no primaria) sin procedimiento';\n        default:\n          return x; // Para valores no definidos\n      }\n    }}\n);"
+  },
+  {
+    "objectID": "evo_variacion_sns.html",
+    "href": "evo_variacion_sns.html",
+    "title": "ATLAS Hospitalizaciones Potencialmente Evitables",
+    "section": "",
+    "text": "Evolución variación (Sistema Nacional de Salud) 2018-2023\n\n\nviewof indicador = Inputs.select(\n  [ 'total_HPE', 'Dehydration_HPE', 'CHF_HPE','diabetes_HPE', 'Asthma_HPE','EPOC_HPE','Angina_HPE'],\n  { label: 'Indicador',\n  format: x =&gt; {\n      switch (x) {\n        case 'total_HPE':\n          return 'Cualquier causa';\n        case 'Dehydration_HPE':\n          return 'Deshidratación';\n        case 'CHF_HPE':\n          return 'Insuficiencia Cardiaca Congestiva (ICC)';\n        case 'diabetes_HPE':\n          return 'Complicaciones Agudas de la Diabetes';\n        case 'Asthma_HPE':\n          return 'Asma en adulto';\n        case 'EPOC_HPE':\n          return 'Enfermedad Pulmonar Obstructiva Crónica (EPOC)';\n        case 'Angina_HPE':\n          return 'Angina (no primaria) sin procedimiento';\n        default:\n          return x; // Para valores no definidos\n      }\n    }}\n);"
+  },
+  {
+    "objectID": "perfil_desempeño_zbs.html",
+    "href": "perfil_desempeño_zbs.html",
+    "title": "ATLAS Hospitalizaciones Potencialmente Evitables",
+    "section": "",
+    "text": "viewof ccaa_ = Inputs.select(\n  [ '01', '02', '03','04', '05','06','07','08','09','10','11','12','13','14','15','16','17'],\n  { label: 'CCAA',\n  format: x =&gt; {\n      switch (x) {\n        case '01':\n          return 'Andalucía';\n        case '02':\n          return 'Aragón';\n        case '03':\n          return 'Asturias (Principado de)';\n        case '04':\n          return 'Balears (Illes)';\n        case '05':\n          return 'Canarias';\n        case '06':\n          return 'Cantabria';\n        case '07':\n          return 'Castilla y León';\n        case '08':\n          return 'Castilla-La Mancha';\n        case '09':\n          return 'Cataluña';\n        case '10':\n          return 'Comunidad Valenciana';\n        case '11':\n          return 'Extremadura';\n        case '12':\n          return 'Galicia';\n        case '13':\n          return 'Madrid';\n        case '14':\n          return 'Murcia';\n        case '15':\n          return 'Navarra (Comunidad Foral de)';\n        case '16':\n          return 'País Vasco';\n        case '17':\n          return 'La Rioja';\n        default:\n          return x; // Para valores no definidos\n      }\n    }}\n);\n\n\n\n\n\n\n\n\n\n\nLeyenda\n\n\n\n  \n  \n    ×\n    Leyenda\n    \n\n\n\n\n\n\n\nFigura\nDescripción\n\n\n➘\nMejor que el periodo anterior\n\n\n➡\nIgual que el periodo anterior\n\n\n➚\nPeor que el periodo anterior\n\n\n\n\n\nValores por debajo del valor P25\n\n\n\n\n\nValores no significativamente distintos del valor P25\n\n\n\n\n\nValores por encima del valor P25\n\n\n\n\n\nSin casos\n\n\n\n\n\nValor P25\n\n\n\n\n\nQ1\n\n\n\n\n\nQ2\n\n\n\n\n\nQ3\n\n\n\n\n\nQ4\n\n\n\n\n\nQ5"
+  },
+  {
+    "objectID": "var_geo_edad.html",
+    "href": "var_geo_edad.html",
+    "title": "ATLAS Hospitalizaciones Potencialmente Evitables",
+    "section": "",
+    "text": "viewof indicador = Inputs.select(\n  [ 'total_HPE', 'Dehydration_HPE', 'CHF_HPE','diabetes_HPE', 'Asthma_HPE','EPOC_HPE','Angina_HPE'],\n  { label: 'Indicador',\n  format: x =&gt; {\n      switch (x) {\n        case 'total_HPE':\n          return 'Cualquier causa';\n        case 'Dehydration_HPE':\n          return 'Deshidratación';\n        case 'CHF_HPE':\n          return 'Insuficiencia Cardiaca Congestiva (ICC)';\n        case 'diabetes_HPE':\n          return 'Complicaciones Agudas de la Diabetes';\n        case 'Asthma_HPE':\n          return 'Asma en adulto';\n        case 'EPOC_HPE':\n          return 'Enfermedad Pulmonar Obstructiva Crónica (EPOC)';\n        case 'Angina_HPE':\n          return 'Angina (no primaria) sin procedimiento';\n        default:\n          return x; // Para valores no definidos\n      }\n    }}\n);"
+  }
+]
